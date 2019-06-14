@@ -3,6 +3,6 @@ addEventListener("keydown",event=>{
         flappy.up()
     }
 })
-canvas.addEventListener("ontouchstart",event =>{
+addEventListener("ontouchstart",event =>{
     flappy.up()
 })
