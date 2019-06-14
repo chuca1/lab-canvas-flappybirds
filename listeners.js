@@ -3,3 +3,6 @@ addEventListener("keydown",event=>{
         flappy.up()
     }
 })
+addEventListener("ontouchstart",event =>{
+    flappy.up()
+})

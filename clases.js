@@ -65,7 +65,7 @@ class Flappy{
         this.flappyDown.src =  "./images/bluebird-downflap.png"
     }
     draw(){
-        this.y+=2.5
+        this.y+=2.5 
         if(frames % 2 ==0){
             this.img = animateHelper === 0 ? this.flappyUp:
                        animateHelper === 1 ? this.flappyMid:
